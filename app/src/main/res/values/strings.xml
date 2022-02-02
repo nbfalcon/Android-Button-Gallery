@@ -17,4 +17,7 @@
 
     <string name="view_checkbox">CheckBox</string>
     <string name="view_togglebutton">ToggleButton</string>
+
+    <string name="toast_floating_action">Floating action</string>
+    <string name="description_floating_action">Floating Action Toast</string>
 </resources>

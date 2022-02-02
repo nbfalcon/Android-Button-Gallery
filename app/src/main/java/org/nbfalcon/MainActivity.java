@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
 import com.example.R;
 import com.google.android.material.chip.Chip;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.Random;
 
@@ -105,5 +106,9 @@ public class MainActivity extends AppCompatActivity {
                 (view, state) -> bindChipsToTextView(chipTextView, chip1, chip2);
         chip1.setOnCheckedChangeListener(cb);
         chip2.setOnCheckedChangeListener(cb);
+
+        FloatingActionButton floatingActionButton = findViewById(R.id.floatingActionButton);
+        floatingActionButton.setOnClickListener((view) ->
+                Toast.makeText(this, R.string.toast_floating_action, Toast.LENGTH_SHORT).show());
     }
 }
