@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Android API Button Gallery</string>
+
+    <string name="checked_yes">Yes</string>
+    <string name="checked_no">No</string>
+
+    <string name="enable_image">Enable image</string>
+    <string name="random_image">Random image</string>
+    <string name="chosen_image">Chosen image (radio buttons)</string>
+
+    <string name="image_1">Image 1</string>
+    <string name="image_2">Image 2</string>
+    <string name="image_3">Image 3</string>
+
+    <string name="cat_meow">Meow</string>
+    <string name="cat_reow">Reow</string>
+
+    <string name="view_checkbox">CheckBox</string>
+    <string name="view_togglebutton">ToggleButton</string>
+</resources>
